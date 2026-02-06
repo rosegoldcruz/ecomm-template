@@ -1,0 +1,427 @@
+{
+  "catalog": {
+    "source": "Amazon Fresh",
+    "extracted_date": "2026-02-06",
+    "currency": "USD",
+    "products": [
+      {
+        "id": "P001",
+        "name": "Chicago Style Green Pepper Strips",
+        "brand": "Chicago Style",
+        "category": "Vegetables",
+        "subcategory": "Canned Vegetables",
+        "size": "102oz",
+        "variant": "Plain",
+        "price": 29.99,
+        "price_per_unit": 0.29,
+        "unit": "ounce",
+        "availability": "In Stock",
+        "shipping": {
+          "free_delivery": "Fri, Feb 13",
+          "fastest_delivery": "Feb 9 - 10"
+        }
+      },
+      {
+        "id": "P002",
+        "name": "Chicago Style Tomato Puree Extra Heavy",
+        "brand": "Chicago Style",
+        "category": "Canned Goods",
+        "subcategory": "Tomato Products",
+        "size": "107oz",
+        "variant": "Plain",
+        "price": 23.99,
+        "price_per_unit": 0.22,
+        "unit": "ounce",
+        "availability": "In Stock",
+        "shipping": {
+          "free_delivery": "Fri, Feb 13",
+          "fastest_delivery": "Feb 9 - 10"
+        }
+      },
+      {
+        "id": "P003",
+        "name": "Chicago Style Mushrooms Pieces & Stems",
+        "brand": "Chicago Style",
+        "category": "Vegetables",
+        "subcategory": "Canned Mushrooms",
+        "size": "68oz",
+        "variant": "Plain",
+        "price": 29.99,
+        "price_per_unit": 0.44,
+        "unit": "ounce",
+        "availability": "In Stock",
+        "shipping": {
+          "free_delivery": "Tue, Feb 17",
+          "fastest_delivery": "Tue, Feb 10"
+        }
+      },
+      {
+        "id": "P004",
+        "name": "Chicago Style Tomato Paste",
+        "brand": "Chicago Style",
+        "category": "Canned Goods",
+        "subcategory": "Tomato Products",
+        "size": "111oz",
+        "variant": "Plain",
+        "price": 29.99,
+        "price_per_unit": 0.27,
+        "unit": "ounce",
+        "availability": "In Stock",
+        "shipping": {
+          "free_delivery": "Tue, Feb 17",
+          "fastest_delivery": "Tue, Feb 10"
+        }
+      },
+      {
+        "id": "P005",
+        "name": "Chicago Style Ground Peeled Tomatoes",
+        "brand": "Chicago Style",
+        "category": "Canned Goods",
+        "subcategory": "Tomato Products",
+        "size": "105oz",
+        "variant": "Plain",
+        "price": 23.99,
+        "price_per_unit": 0.23,
+        "unit": "ounce",
+        "availability": "In Stock",
+        "shipping": {
+          "free_delivery": "Fri, Feb 13",
+          "fastest_delivery": "Feb 9 - 10"
+        }
+      },
+      {
+        "id": "P006",
+        "name": "Chicago Style Mild Giardiniera - 100 Count/1.5oz Pouch Packets",
+        "brand": "Chicago Style",
+        "category": "Condiments",
+        "subcategory": "Giardiniera",
+        "size": "100 Count",
+        "unit_size": "1.5oz",
+        "variant": "Giardiniera",
+        "price": 134.99,
+        "price_per_unit": 1.35,
+        "unit": "count",
+        "availability": "In Stock",
+        "shipping": {
+          "free_delivery": "Tue, Feb 17",
+          "fastest_delivery": "Tue, Feb 10"
+        }
+      },
+      {
+        "id": "P007",
+        "name": "Antonio Amato NO.80 Penne Rigate 10 LB Bag",
+        "brand": "Antonio Amato",
+        "category": "Pasta",
+        "subcategory": "Penne",
+        "size": "160 Ounce",
+        "weight": "10 LB",
+        "pack_size": "Pack of 1",
+        "price": 34.99,
+        "price_per_unit": 0.22,
+        "unit": "ounce",
+        "availability": "In Stock",
+        "shipping": {
+          "free_delivery": "Tue, Feb 17",
+          "fastest_delivery": "Tue, Feb 10"
+        }
+      },
+      {
+        "id": "P008",
+        "name": "Antonio Amato NO.20 Fettuccine 10 LB Bag",
+        "brand": "Antonio Amato",
+        "category": "Pasta",
+        "subcategory": "Fettuccine",
+        "size": "160 Ounce",
+        "weight": "10 LB",
+        "pack_size": "Pack of 1",
+        "price": 34.99,
+        "price_per_unit": 0.22,
+        "unit": "ounce",
+        "availability": "In Stock",
+        "shipping": {
+          "free_delivery": "Tue, Feb 17",
+          "fastest_delivery": "Tue, Feb 10"
+        }
+      },
+      {
+        "id": "P009",
+        "name": "Chicago Style Mild Giardiniera",
+        "brand": "Chicago Style",
+        "category": "Condiments",
+        "subcategory": "Giardiniera",
+        "size": "1 Gallon",
+        "variant": "Mild",
+        "price": 34.99,
+        "price_per_unit": null,
+        "unit": null,
+        "availability": "In Stock",
+        "shipping": {
+          "free_delivery": "Thu, Feb 6",
+          "fastest_delivery": "Feb 3 - 18"
+        }
+      },
+      {
+        "id": "P010",
+        "name": "Chicago Style Canned Tomatoes",
+        "brand": "Chicago Style",
+        "category": "Canned Goods",
+        "subcategory": "Tomato Products",
+        "size": "Other",
+        "variant": null,
+        "price": 23.99,
+        "price_per_unit": null,
+        "unit": null,
+        "availability": "In Stock",
+        "shipping": {
+          "free_delivery": "Mon, Feb 3",
+          "fastest_delivery": "Feb 1 - 18"
+        }
+      },
+      {
+        "id": "P011",
+        "name": "Antonio Amato NO.37 Spaghetti - 10 LB Bag",
+        "brand": "Antonio Amato",
+        "category": "Pasta",
+        "subcategory": "Spaghetti",
+        "size": "160 Ounce",
+        "weight": "10 LB",
+        "pack_size": "Pack of 1",
+        "description": "grano duro semola di grano duro (durum wheat semolina) pasta macaroni product",
+        "country_of_origin": "Italy",
+        "price": 34.99,
+        "price_per_unit": 0.22,
+        "unit": "ounce",
+        "availability": "In Stock",
+        "shipping": {
+          "free_delivery": "Mon, Feb 3",
+          "fastest_delivery": "Jan 31 - Feb 18"
+        }
+      },
+      {
+        "id": "P012",
+        "name": "Antonio Amato Di Salerno - NO.3 Spaghetti - 10 LB Bag",
+        "brand": "Antonio Amato",
+        "category": "Pasta",
+        "subcategory": "Spaghetti",
+        "size": "160 Ounce",
+        "weight": "10 LB",
+        "pack_size": "Pack of 1",
+        "description": "grano di semola di grano duro (durum wheat semolina) pasta macaroni product",
+        "country_of_origin": "Italy",
+        "origin_location": "Salerno",
+        "price": 20.99,
+        "price_per_unit": null,
+        "unit": null,
+        "availability": "In Stock",
+        "shipping": {
+          "free_delivery": "Mon, Feb 3",
+          "fastest_delivery": "Jan 31 - 18"
+        }
+      },
+      {
+        "id": "P013",
+        "name": "Chicago Style Hot Giardiniera",
+        "brand": "Chicago Style",
+        "category": "Condiments",
+        "subcategory": "Giardiniera",
+        "size": "8oz",
+        "variant": "Hot",
+        "price": 12.99,
+        "price_per_unit": null,
+        "unit": null,
+        "availability": "In Stock",
+        "shipping": {
+          "free_delivery": "Thu, Feb 6",
+          "fastest_delivery": "Feb 1 - 18"
+        }
+      },
+      {
+        "id": "P014",
+        "name": "Chicago Style Hot Giardiniera",
+        "brand": "Chicago Style",
+        "category": "Condiments",
+        "subcategory": "Giardiniera",
+        "size": "16oz",
+        "variant": "Hot",
+        "price": 16.99,
+        "price_per_unit": null,
+        "unit": null,
+        "availability": "In Stock",
+        "shipping": {
+          "free_delivery": "Thu, Feb 6",
+          "fastest_delivery": "Feb 1 - 18"
+        }
+      },
+      {
+        "id": "P015",
+        "name": "Antonio Amato Di Salerno - NO.80 Penne Rigate - 10 LB Bag",
+        "brand": "Antonio Amato",
+        "category": "Pasta",
+        "subcategory": "Penne",
+        "size": "160 Ounce",
+        "weight": "10 LB",
+        "pack_size": "Pack of 1",
+        "description": "grano di semola di grano duro (durum wheat semolina) pasta macaroni product",
+        "country_of_origin": "Italy",
+        "origin_location": "Salerno",
+        "price": 20.99,
+        "price_per_unit": null,
+        "unit": null,
+        "availability": "In Stock",
+        "shipping": {
+          "free_delivery": "Mon, Feb 3",
+          "fastest_delivery": "Jan 31 - 18"
+        }
+      },
+      {
+        "id": "P016",
+        "name": "Chicago Style Hot Giardiniera",
+        "brand": "Chicago Style",
+        "category": "Condiments",
+        "subcategory": "Giardiniera",
+        "size": "32oz",
+        "variant": "Hot",
+        "price": 12.99,
+        "price_per_unit": null,
+        "unit": null,
+        "availability": "In Stock",
+        "shipping": {
+          "free_delivery": "Thu, Feb 6",
+          "fastest_delivery": "Feb 1 - 18"
+        }
+      },
+      {
+        "id": "P017",
+        "name": "Chicago Style Hot Giardiniera",
+        "brand": "Chicago Style",
+        "category": "Condiments",
+        "subcategory": "Giardiniera",
+        "size": "16oz",
+        "variant": "Hot",
+        "price": 16.99,
+        "price_per_unit": null,
+        "unit": null,
+        "availability": "In Stock",
+        "shipping": {
+          "free_delivery": "Thu, Feb 6",
+          "fastest_delivery": "Feb 1 - 18"
+        }
+      },
+      {
+        "id": "P018",
+        "name": "Chicago Style Pizza Sauce With Basil",
+        "brand": "Chicago Style",
+        "category": "Sauces",
+        "subcategory": "Pizza Sauce",
+        "size": "108oz",
+        "variant": "With Basil",
+        "price": 23.99,
+        "price_per_unit": null,
+        "unit": null,
+        "availability": "In Stock",
+        "shipping": {
+          "free_delivery": "Thu, Feb 6",
+          "fastest_delivery": "Feb 1 - 18"
+        }
+      },
+      {
+        "id": "P019",
+        "name": "Antonio Amato Di Salerno - NO.114 Fusilli - 10 LB Bag",
+        "brand": "Antonio Amato",
+        "category": "Pasta",
+        "subcategory": "Fusilli",
+        "size": "160 Ounce",
+        "weight": "10 LB",
+        "pack_size": "Pack of 1",
+        "description": "grano di semola di grano duro (durum wheat semolina) pasta macaroni product",
+        "country_of_origin": "Italy",
+        "origin_location": "Salerno",
+        "price": 20.99,
+        "price_per_unit": null,
+        "unit": null,
+        "availability": "In Stock",
+        "shipping": {
+          "free_delivery": "Mon, Feb 3",
+          "fastest_delivery": "Jan 31 - 18"
+        }
+      },
+      {
+        "id": "P020",
+        "name": "Chicago Style Pizza Sauce",
+        "brand": "Chicago Style",
+        "category": "Sauces",
+        "subcategory": "Pizza Sauce",
+        "size": "108oz",
+        "variant": "Plain",
+        "price": 23.99,
+        "price_per_unit": null,
+        "unit": null,
+        "availability": "In Stock",
+        "shipping": {
+          "free_delivery": "Thu, Feb 6",
+          "fastest_delivery": "Feb 1 - 18"
+        }
+      },
+      {
+        "id": "P021",
+        "name": "Antonio Amato Di Salerno - NO.114 Fusilli - 10 LB Bag (Pack of 2)",
+        "brand": "Antonio Amato",
+        "category": "Pasta",
+        "subcategory": "Fusilli",
+        "size": "160 Ounce",
+        "weight": "10 LB",
+        "pack_size": "Pack of 2",
+        "description": "grano di semola di grano duro (durum wheat semolina) pasta macaroni product",
+        "country_of_origin": "Italy",
+        "origin_location": "Salerno",
+        "price": 40.99,
+        "price_per_unit": null,
+        "unit": null,
+        "availability": "In Stock",
+        "shipping": {
+          "free_delivery": "Fri, Feb 14",
+          "fastest_delivery": "Feb 1 - 18"
+        }
+      },
+      {
+        "id": "P022",
+        "name": "Antonio Amato Di Salerno - NO.3 Spaghetti - 10 LB Bag (Pack of 2)",
+        "brand": "Antonio Amato",
+        "category": "Pasta",
+        "subcategory": "Spaghetti",
+        "size": "320 Ounce",
+        "weight": "20 LB Total",
+        "pack_size": "Pack of 2",
+        "description": "grano di semola di grano duro (durum wheat semolina) pasta macaroni product",
+        "country_of_origin": "Italy",
+        "origin_location": "Salerno",
+        "price": 20.99,
+        "price_per_unit": null,
+        "unit": null,
+        "availability": "In Stock",
+        "shipping": {
+          "free_delivery": "Fri, Feb 7",
+          "fastest_delivery": "Feb 1 - 18"
+        }
+      }
+    ],
+    "summary": {
+      "total_products": 22,
+      "brands": [
+        "Chicago Style",
+        "Antonio Amato"
+      ],
+      "categories": [
+        "Vegetables",
+        "Canned Goods",
+        "Condiments",
+        "Pasta",
+        "Sauces"
+      ],
+      "price_range": {
+        "minimum": 12.99,
+        "maximum": 134.99
+      }
+    }
+  }
+}
