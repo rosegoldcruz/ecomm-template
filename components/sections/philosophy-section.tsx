@@ -106,14 +106,14 @@ export function PhilosophySection() {
                 }}
               >
                 <Image
-                  src="/jp%20assets/Chicago%20Style%20Pizza%20Sauce%20With%20Basil%2C%20106oz.png"
-                  alt="Chicago Style Pizza Sauce With Basil"
+                  src="/jp%20assets/Deli%20Fratelli.png"
+                  alt="Deli Fratelli"
                   fill
                   className="object-cover"
                 />
                 <div className="absolute bottom-6 left-6">
                   <span className="backdrop-blur-md px-4 py-2 text-sm font-medium rounded-full bg-[rgba(255,255,255,0.2)] text-white">
-                    Pizza Sauce $23.99
+                    Deli Fratelli
                   </span>
                 </div>
               </div>
