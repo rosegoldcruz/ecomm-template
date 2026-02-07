@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { FadeImage } from "@/components/fade-image";
 
 const features = [
@@ -7,37 +8,31 @@ const features = [
     title: "Spaghetti No.4",
     description: "Antonio Amato",
     image: "/jp%20assets/ANTONIO%20AMATO%20di%20Salerno%20-%20NO.4%20Spaghetti%20-%20pack%20of%205-%20front.png",
-    href: "https://www.amazon.com/dp/B0DDG5FVXP",
   },
   {
     title: "Penne Rigate No.80",
     description: "Antonio Amato",
     image: "/jp%20assets/ANTONIO%20AMATO%20di%20Salerno%20-%20NO.80%20Penne%20Rigate.png",
-    href: "https://www.amazon.com/dp/B0DDG6FCT7",
   },
   {
     title: "Rigatoni No.18",
     description: "Antonio Amato",
     image: "/jp%20assets/ANTONIO%20AMATO%20di%20Salerno%20-NO.18%20Rigatoni%20-%20Pack%20of%205.png",
-    href: "https://www.amazon.com/dp/B0DDG5KCRB",
   },
   {
     title: "Fusilli No.114",
     description: "Antonio Amato",
     image: "/jp%20assets/ANTONIO%20AMATO%20di%20Salerno%20-%20NO.114%20Fusilli%20-%20(Pack%20of%205%2C%205lb%20total%20weight)%20-%20pasta%20di%20semola%20di%20grano%20duro%20-%20durum%20wheat%20semolina%20pasta%20macaroni%20product%20-%20Authentic%20Italain%20Pasta%20-%20PRODUCT%20OF%20ITALY.png",
-    href: "https://www.amazon.com/dp/B0DM7M4NWB",
   },
   {
     title: "Pizza Sauce With Basil",
     description: "Chicago Style",
     image: "/jp%20assets/Chicago%20Style%20Pizza%20Sauce%20With%20Basil%2C%20106oz.png",
-    href: "https://www.amazon.com/dp/B0DM76L3PK",
   },
   {
     title: "Mild Giardiniera",
     description: "Chicago Style",
     image: "/jp%20assets/Chicago%20Style%20Mild%20Giardiniera%2C%2016oz.png",
-    href: "https://www.amazon.com/dp/B0DJDZNXFY",
   },
 ];
 
@@ -59,13 +54,7 @@ export function FeaturedProductsSection() {
       {/* Features Grid */}
       <div className="grid grid-cols-1 gap-4 px-6 pb-20 md:grid-cols-3 md:px-12 lg:px-20">
         {features.map((feature) => (
-          <a
-            key={feature.title}
-            href={feature.href}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group"
-          >
+          <div key={feature.title} className="group">
             {/* Image */}
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
               <FadeImage
@@ -85,13 +74,18 @@ export function FeaturedProductsSection() {
                 {feature.title}
               </h3>
             </div>
-          </a>
+          </div>
         ))}
       </div>
 
       {/* CTA Link */}
       <div className="flex justify-center px-6 pb-28 md:px-12 lg:px-20">
-        
+        <Link
+          href="/store"
+          className="px-8 py-4 text-sm font-medium bg-foreground text-background rounded-full hover:opacity-80 transition-opacity"
+        >
+          Shop All Products
+        </Link>
       </div>
     </section>
   );

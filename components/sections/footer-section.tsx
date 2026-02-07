@@ -7,7 +7,7 @@ const footerLinks = {
     { label: "Pasta", href: "#products" },
     { label: "Our Craft", href: "#technology" },
     { label: "Gallery", href: "#gallery" },
-    { label: "Products", href: "#accessories" },
+    { label: "Products", href: "/store" },
   ],
   about: [
     { label: "Our Story", href: "#" },
