@@ -34,7 +34,16 @@ const sideImages = [
 
 export function HeroSection() {
   const sectionRef = useRef<HTMLElement>(null);
+  const videoRef = useRef<HTMLVideoElement>(null);
   const [scrollProgress, setScrollProgress] = useState(0);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (video) {
+      video.muted = true;
+      video.play().catch(() => {});
+    }
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -125,12 +134,17 @@ export function HeroSection() {
                 borderRadius: `${borderRadius}px`,
               }}
             >
+              {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
               <video
+                ref={videoRef}
                 src="/jp%20assets/Packaging_Instructions_Ignored.mp4"
                 autoPlay
                 loop
                 muted
                 playsInline
+                // @ts-ignore
+                webkit-playsinline="true"
+                preload="auto"
                 className="absolute inset-0 h-full w-full object-cover"
               />
               

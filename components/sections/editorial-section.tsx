@@ -1,5 +1,7 @@
 "use client";
 
+import { useRef, useEffect } from "react";
+
 const specs = [
   { label: "Brands", value: "2" },
   { label: "Products", value: "22+" },
@@ -8,6 +10,16 @@ const specs = [
 ];
 
 export function EditorialSection() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (video) {
+      video.muted = true;
+      video.play().catch(() => {});
+    }
+  }, []);
+
   return (
     <section className="bg-background">
       {/* Newsletter Banner */}
@@ -38,11 +50,16 @@ export function EditorialSection() {
 
       {/* Full-width Video */}
       <div className="relative aspect-[16/9] w-full md:aspect-[21/9]">
+        {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
         <video
+          ref={videoRef}
           autoPlay
           loop
           muted
           playsInline
+          // @ts-ignore
+          webkit-playsinline="true"
+          preload="auto"
           className="absolute inset-0 h-full w-full object-cover"
           src="/jp%20assets/Antonio_Amato_Pasta_Ad_Creation.mp4"
         />

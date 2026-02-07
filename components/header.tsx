@@ -33,8 +33,7 @@ export function Header() {
             alt="JP Distribution"
             width={120}
             height={40}
-            className="h-8 w-auto object-contain brightness-0 invert transition-all duration-300"
-            style={{ filter: isScrolled ? 'brightness(0) invert(0)' : 'brightness(0) invert(1)' }}
+            className="h-8 w-auto object-contain transition-all duration-300"
           />
         </Link>
 
